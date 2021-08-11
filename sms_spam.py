@@ -7,7 +7,7 @@ import time
 def load_model_token():    
     bar=st.progress(0)
     process=25
-    tokenizer=pd.read_pickle(r"/app/sms_span_detection/tokenizer.pkl")
+    tokenizer=pd.read_pickle(r"/app/sms_span_detection/spam_model/tokenizer.pkl")
     bar.progress(process+25)
     model=tf.keras.models.load_model(r"/app/sms_span_detection/spam_model")
     bar.progress(process+75)
