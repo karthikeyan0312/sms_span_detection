@@ -32,4 +32,4 @@ if submit:
     if pred==1:
         st.write("This is a Spam Message")
     else:
-        st.write("This is Han Message")
+        st.write("This is Ham Message")
