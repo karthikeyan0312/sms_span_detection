@@ -18,7 +18,7 @@ def load_model_token():
 model,tokenizer=load_model_token()
 
 max_length = 8
-st.title("SMS Span Prediction")
+st.title("SMS Span Detection")
 st.markdown("************")
 input=st.text_input("Enter the sms: ")
 sms=[input]
